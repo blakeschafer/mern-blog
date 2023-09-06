@@ -26,7 +26,7 @@ return (
             {item.name} 
         
         </a>
-        <span className='cursor-pointer text-yellow-500 absolute transition-all duration-500 font-bold right-0 top-0 group-hover:right-[90%] opacity-0 group-hover:opacity-100'>
+        <span className='cursor-pointer text-primary absolute transition-all duration-500 font-bold right-0 top-0 group-hover:right-[90%] opacity-0 group-hover:opacity-100'>
         
         </span></> ) : (
         <div className="flex flex-col items-center">
@@ -37,7 +37,7 @@ return (
             
         </button>
         <div className={`${dropdown ? "block" : "hidden"} lg:hidden transition-all duration-500 pt-4 lg:absolute lg:bottom-0 lg:right-0 lg:transform lg:translate-y-full lg:group-hover:block w-max`}>
-            <ul className="bg-dark-hard lg:bg-trasnparent text-centerflex flex-col shadow-lg rounded-lg overflow-hidden">
+            <ul className="bg-dark-soft lg:bg-trasnparent text-centerflex flex-col shadow-lg rounded-lg overflow-hidden">
                 {item.items.map((page) => (
                     <a href="/" className="hover:bg-dark-hard hover:text-white px-4 py-2 text-dark lg:text-dark-hard">
                     {page}
@@ -63,7 +63,7 @@ const navVisibilityHandler = () => {
 };
 
   return (
-    <section>
+    <section className="sticky top-0 left-0 right-0 z-50">
         <header className='container mx-auto px-5 flex justify-between py-4 items-center'>
             <div>
                 <img className="w-16" src={images.Logo} alt="logo" />
@@ -77,7 +77,7 @@ const navVisibilityHandler = () => {
                         <NavItem key={item.name} item={item} />
                     ))}
                 </ul>
-                <button className='mt-5 lg:mt-0 border-2 border-yellow-500 px-6 py-2 rounded-full text-gray-500 font-semibold hover:bg-yellow-500 hover:text-white transition-all duration-300'>Sign In</button>
+                <button className='mt-5 lg:mt-0 border-2 border-primary px-6 py-2 rounded-full text-gray-500 font-semibold hover:bg-yellow-500 hover:text-white transition-all duration-300'>Sign In</button>
             </div>
         </header>
     </section>
