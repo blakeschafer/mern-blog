@@ -7,7 +7,7 @@ const navItemInfo = [
     {name: "Home", type: "link"},
     {name: "Articles", type: "link"},
     {name: "Pages", type: "dropdown", items: ["About", "Contact"]},
-    {name: "FAQ", type: "link"},
+    // {name: "FAQ", type: "link"},
 ]
 
 const NavItem = ({ item }) => {

@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         robotomono: ["'Roboto Mono'", "monospace"],
         sourcecodepro:["'Source Code Pro'", "monospace"],
+        prompt: ["'Prompt'", "sans-serif"],
       }
     },
   },
