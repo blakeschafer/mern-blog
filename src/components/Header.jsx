@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { images } from "../constants";
-import { MdArrowDropDown } from "react-icons/md";
+//import { MdArrowDropDown } from "react-icons/md";
 
 const navItemInfo = [
     {name: "Home", type: "link"},
