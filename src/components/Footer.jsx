@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         <div className='col-span-10 md:order-first md:col-span-4'>
           <img src={images.Logo} alt="logo" className='brightness-0 invert mx-auto md:mx-0' style={{height:100, width:100}}/>
-          <p className='text-sm font-prompt text-bold text-center mt-4 md:text-left md:text-base'>Always Learning, Building, Growing</p>
+          <p className='text-sm font-prompt text-bold text-center mt-4 md:text-left md:text-base'>Always Learning, Building, & Growing</p>
           <ul className='flex justify-center items-center mt-5 space-x-4 text-dark-hard md:justify-start'>
             <li>
               <a href="/">

@@ -77,7 +77,7 @@ const navVisibilityHandler = () => {
                         <NavItem key={item.name} item={item} />
                     ))}
                 </ul>
-                <button className='mt-5 lg:mt-0 border-2 border-primary px-6 py-2 rounded-full text-gray-500 font-semibold hover:bg-yellow-500 hover:text-white transition-all duration-300'>Sign In</button>
+                <button className='mt-5 lg:mt-0 border-2 border-primary px-6 py-2 rounded-full text-gray-500 font-semibold hover:bg-black hover:text-white transition-all duration-300'>Sign In</button>
             </div>
         </header>
     </section>
